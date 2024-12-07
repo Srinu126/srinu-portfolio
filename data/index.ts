@@ -79,14 +79,22 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    title: "Hirrd",
+    des: "Job Portal application designed to connect job seekers with their dream opportunities and employers with top talent",
+    img: "/hirrd.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://github.com/Srinu126/react-job-portal",
+  },
+  {
+    id: 2,
     title: "Personal Blog with Next.js",
-    des: "Next.js App with TailwindCSS and ContentLayer",
+    des: "Next.js App with TailwindCSS and Contentful",
     img: "/Blog.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/Srinu126/blog-with-Next-JS",
   },
   {
-    id: 2,
+    id: 3,
     title: "Real Estate App with MERN",
     des: "A Real Estate App with Authentication developed using React JS, Redux Toolkit, Express JS, MongoDB, Tailwind CSS",
     img: "/realestate.png",
@@ -94,20 +102,12 @@ export const projects = [
     link: "https://github.com/Srinu126/real-estate-app-with-mern",
   },
   {
-    id: 3,
-    title: "Redux and Redux Toolkit with React",
-    des: "Demonstrating the concepts, principles in Redux and also new Redux Tool Kit with REACT",
-    img: "/redux.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/Srinu126/Redux_and_Redux-ToolKit-with-React",
-  },
-  {
     id: 4,
-    title: "Testing in Next.js with Cypress",
-    des: "End to End and Component Testing using Cypress",
-    img: "/Cypress.png",
+    title: "React Movies App",
+    des: "Dynamic and immersive movie discovery platform built using React",
+    img: "/react_movies.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/Srinu126/cypresss-with-nextjs",
+    link: "https://github.com/Srinu126/react_MoviesApp",
   },
 ];
 
